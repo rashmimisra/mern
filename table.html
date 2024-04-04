@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table </title>
+    <style>
+        body{
+            background-image: url(image/icon.png);
+            background-repeat: no-repeat;
+           
+        }
+  table,tr,td,th{
+     border: 2px solid rgb(3, 38, 41); 
+    
+     
+}
+  th,td{
+    text-align: center;
+    padding:10px;
+    
+    }
+
+       
+  th{
+    background-color: bisque;
+    }
+  tr:nth-child(even){
+    background-color: azure ;
+ }
+ tr:hover {
+    background-color:palevioletred;
+}
+ #button{
+    border : 2px solid black;
+    margin-top:800px
+   
+    padding : 10px;
+    border-radius: 5px;
+    }
+    </style>
+</head>
+<body>
+    <h1>Student information </h1>
+    <table  style = "border-collapse: collapse ;">
+       
+        
+        
+        <tr>
+        <th>Roll no.</th>
+        <th>Name </th>
+        <th>Course</th>
+        <th>Percentage </th>
+    </tr>
+    <tr>
+        <td> 1</td>
+        <td> rashmi</td>
+        <td> MCA</td>
+        <td> 80%</td>
+    </tr>
+    <tr>
+        <td> 2</td>
+        <td>divyanshi</td>
+        <td> MCA</td>
+        <td> 80%</td>
+    </tr>
+    <tr>
+        <td> 3</td>
+        <td>Tanya</td>
+        <td> MCA</td>
+        <td> 80%</td>
+    </tr>
+    
+    </table>
+    <a href="list.html" id="button"> submit</a>
+    <a href="list.html" id="button"> login</a>
+    
+    
+</body>
+</html>

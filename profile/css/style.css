@@ -1,0 +1,26 @@
+h2{
+
+    color: plum;
+    
+}
+body{
+    background-color:#a5a58d;
+}
+#heading{
+    color: brown;
+    text-align: center;
+    text-decoration: underline overline;
+    font-weight: bold;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: italic;
+    text-transform: uppercase;
+
+
+    
+}
+#para1{
+    
+    margin:30px;
+    text-align: justify;
+}
