@@ -3,16 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home page
-    </title>
+    <title>first page </title>
 </head>
 <body>
-    <a href="first.html">first web page </a><br><!--hyperlinking  to the first webpage--> 
-    <a href="list.html">list web page</a> <br>
-    <h1 style="color:aqua;">BIRD </h1>
-    <img src="image/bird.jpg"  style="width: 400px; height:300px" alt="file not found"><br>
-    <a href="table.html">table web page</a><br>
-    <a href="studentinfo.html">student information</a>
-    
+    <p id="info"></p>
+    <button onmouseover="openurl();">open url</button>
+    <button id="alert" name="alert">open alert</button>
+    <button id="msg" name="message">open message</button>
+    <script>
+        function openurl(){
+            // window.open("https:\\www.google.com");
+            // document.location="https:\\www.google.com";
+            // history.forward();
+            // document.getElementById("info").innerHTML="<h1>hello world!</h1>"
+            document.getElementById("info").innerHTML=event.target.name;
+                }
+                const alertButton=document.querySelector("#alert");
+                alertButton.onclick=(event)=>{
+                    alert("welcome to js"+event.target.name);
+                }
+                const msgButton=document.getElementById("msg");
+                msgButton.addEventListener("click",(event)=>{
+                    alert("this is message"+event.target.name);
+                });
+    </script>
+
 </body>
 </html>
