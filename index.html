@@ -3,30 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>first page </title>
+    <title>Fetch Api</title>
 </head>
 <body>
-    <p id="info"></p>
-    <button onmouseover="openurl();">open url</button>
-    <button id="alert" name="alert">open alert</button>
-    <button id="msg" name="message">open message</button>
-    <script>
-        function openurl(){
-            // window.open("https:\\www.google.com");
-            // document.location="https:\\www.google.com";
-            // history.forward();
-            // document.getElementById("info").innerHTML="<h1>hello world!</h1>"
-            document.getElementById("info").innerHTML=event.target.name;
-                }
-                const alertButton=document.querySelector("#alert");
-                alertButton.onclick=(event)=>{
-                    alert("welcome to js"+event.target.name);
-                }
-                const msgButton=document.getElementById("msg");
-                msgButton.addEventListener("click",(event)=>{
-                    alert("this is message"+event.target.name);
-                });
-    </script>
-
+    <div id="table"></div>
+    <script src="main.js"></script>
 </body>
 </html>
